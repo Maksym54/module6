@@ -11,4 +11,5 @@ for c, l in zip(CYRILLIC_SYMBOLS, TRANSLATION):
 def normalize(name: str) -> str:
     t_name = name.translate(TRANS)
     t_name = re.sub(r'(?![.])\W', '.', t_name)
+   
     return t_name
