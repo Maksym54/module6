@@ -59,5 +59,5 @@ if __name__ == "__main__":
     print(f'Types of files in folder: {EXTENSION}')
     print(f'Unknown files of types: {UNKNOW}')
     print(f'MY_OTHER: {MY_OTHERS}')
-
+    
     print(FOLDERS)
